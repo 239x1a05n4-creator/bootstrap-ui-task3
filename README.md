@@ -1,3 +1,57 @@
+# Task 3 – Front-End Skill Assessment (Mazer Dashboard)
+
+## 📌 Objective
+Customize and integrate a real-world admin dashboard (Mazer) using external data to evaluate frontend adaptation skills.
+
+## 🛠️ Tech Stack
+- HTML5
+- Bootstrap 5
+- JavaScript (ES6)
+- Vite
+- Mazer Admin Template
+
+## 📂 Project Setup
+1. Forked the official Mazer repository
+2. Installed dependencies using:
+
+yarn install
+
+3. Started development server:
+
+yarn dev
+
+## 🔄 What I Implemented
+- Integrated external data using `data.json`
+- Dynamically displayed:
+- Profile Views
+- Followers
+- Following
+- Saved Posts
+- Modified existing Mazer components without creating from scratch
+- Fixed data-binding and ID mismatches during debugging
+
+## 📊 Data Binding Logic
+- Used `fetch()` to read data from JSON
+- Updated dashboard counters using DOM manipulation
+- Ensured clean, readable, and maintainable code
+
+## ✅ Final Output
+- Fully functional customized Mazer dashboard
+- Clean UI and responsive layout
+- No console errors
+
+## 🧠 Learnings
+- Working with large existing codebases
+- Debugging real-world frontend issues
+- Understanding Vite + Bootstrap integration
+- Handling external data sources in UI
+
+## 🔗 Live Preview
+Run locally using `yarn dev`
+
+
+
+
 <h1 align="center">Mazer Dashboard</h1>
 
 ![Mazer Screenshot](https://user-images.githubusercontent.com/45036724/167523601-9d20fb17-1989-488f-b619-cb53c0db8898.png)
