@@ -1,55 +1,72 @@
-# Task 3 – Front-End Skill Assessment (Mazer Dashboard)
+## Task-2 : Bootstrap UI Integration (Mazer Template)
 
-## 📌 Objective
-Customize and integrate a real-world admin dashboard (Mazer) using external data to evaluate frontend adaptation skills.
+## 👤 Student Details
+- **Name:** D Abhirthana  
+- **Roll No:** 239X1A05N4  
+- **Branch:** CSE  
+- **College:** (Your College Name)
 
-## 🛠️ Tech Stack
-- HTML5
-- Bootstrap 5
-- JavaScript (ES6)
-- Vite
-- Mazer Admin Template
+---
 
-## 📂 Project Setup
-1. Forked the official Mazer repository
-2. Installed dependencies using:
+## 📌 Task Objective
+The objective of Task-2 is to understand:
+- UI template structure
+- Template customization
+- Build process using modern tools
+- Deployment using GitHub Pages
 
-yarn install
+---
 
-3. Started development server:
+## 🛠️ Technologies Used
+- HTML5  
+- CSS3  
+- Bootstrap  
+- JavaScript  
+- Vite (Build Tool)  
+- Node.js & npm  
 
-yarn dev
+---
 
-## 🔄 What I Implemented
-- Integrated external data using `data.json`
-- Dynamically displayed:
-- Profile Views
-- Followers
-- Following
-- Saved Posts
-- Modified existing Mazer components without creating from scratch
-- Fixed data-binding and ID mismatches during debugging
+## 📁 Project Structure (Important)
+mazer-main/ │ ├── src/ # Source files (development) │ └── index.html │ ├── dist/ # Build output (deployed) │ ├── index.html │ └── assets/ │ ├── package.json ├── vite.config.js └── README.md
+Copy code
 
-## 📊 Data Binding Logic
-- Used `fetch()` to read data from JSON
-- Updated dashboard counters using DOM manipulation
-- Ensured clean, readable, and maintainable code
+> **Note:** GitHub Pages uses the `dist/index.html` file for live preview.
 
-## ✅ Final Output
-- Fully functional customized Mazer dashboard
-- Clean UI and responsive layout
-- No console errors
+---
 
-## 🧠 Learnings
-- Working with large existing codebases
-- Debugging real-world frontend issues
-- Understanding Vite + Bootstrap integration
-- Handling external data sources in UI
+## 🚀 How to Run the Project Locally
 
-## 🔗 Live Preview
-Run locally using `yarn dev`
+1. Clone the repository:
+```bash
+git clone https://github.com/239x1a05n4-creator/bootstrap-ui-task3.git
+2. Navigate to project folder:
+Bash
+cd mazer-main
+3. Install dependencies:
+Bash
+npm install
+4. Run development server:
+Bash
+npm run dev
 
+🏗️ Build for Production
+5. To generate final static files:
+Bash
+npm run build
+This creates the dist/ folder which is deployed to GitHub Pages.
+🌐 Live Preview (GitHub Pages)
 
+🔗 Live URL:
+https://239x1a05n4-creator.github.io/bootstrap-ui-task3/
+
+📄 Task Status
+✔ UI Template integrated
+✔ Build tool used
+✔ Project deployed successfully
+✔ Live preview working
+## 🙏 Acknowledgement
+- This task was completed as part of the internship assignment provided by KeshavSoft.
 
 
 <h1 align="center">Mazer Dashboard</h1>
