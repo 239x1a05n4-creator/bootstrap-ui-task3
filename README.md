@@ -4,7 +4,7 @@
 - **Name:** D Abhirthana  
 - **Roll No:** 239X1A05N4  
 - **Branch:** CSE  
-- **College:** (Your College Name)
+
 
 ---
 
